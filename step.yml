@@ -54,7 +54,7 @@ inputs:
   - keystore_url: $BITRISEIO_ANDROID_KEYSTORE_URL
     opts:
       title: "Keystore URL"
-      summary: "The keystore file's URL which is generated when you upload the file to the Code Signing tab."
+      summary: "The keystore file's URL which is generated when you upload the file to the Code Signing tab. If using a keystore stored in the repository include file:// before the file path"
       description: ""
       is_required: true
       is_sensitive: true
